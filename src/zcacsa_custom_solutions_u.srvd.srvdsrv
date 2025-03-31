@@ -1,0 +1,6 @@
+@EndUserText.label: 'Custom Solution Admin and Object Manager'
+define service ZCACSA_CUSTOM_SOLUTIONS_U {
+  expose ZCACSA_ABAP_PACKAGES_I     as ABAPPackages;
+  expose ZCACSA_ABAP_OBJECTS_I      as ABAPObjects;
+  expose ZCACSA_ABAP_OBJECT_TYPES_I as ABAPObjectTypes;
+}
