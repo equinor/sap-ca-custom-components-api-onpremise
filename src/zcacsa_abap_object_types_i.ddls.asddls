@@ -7,9 +7,10 @@
     sizeCategory: #S,
     dataClass: #MIXED
 }
-define view entity ZCACSA_ABAP_OBJECT_TYPES_I as select from I_TransportObjectsDescription
+define view entity ZCACSA_ABAP_OBJECT_TYPES_I
+  as select from I_TransportObjectsDescription
 {
-    key TransportRequestObjectPgmID as ObjectCategory,
-    key TransportRequestObjectType as ObjectType,
-    TransportRequestObjectTypeDesc as ObjectDescription
-} 
+  key TransportRequestObjectPgmID    as ObjectCategory,
+  key TransportRequestObjectType     as ObjectType,
+      TransportRequestObjectTypeDesc as ObjectDescription
+}
